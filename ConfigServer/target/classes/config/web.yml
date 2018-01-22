@@ -1,0 +1,9 @@
+server:
+  port: 1115
+
+
+zuul:
+  routes:
+    cholla: /cholla/**
+    users: /users/**
+    
